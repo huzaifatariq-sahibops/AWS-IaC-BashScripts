@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define variables
-BUCKET_NAME="backup_s3_bucket"
+BUCKET_NAME="my_s3_bucket-$(date +%s)"
 REGION="us-east-1"
 
 # Create S3 bucket
